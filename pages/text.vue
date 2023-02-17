@@ -6,8 +6,6 @@
 
 <script>
 export default {
-    name: 'BcGameText1',
-
     data() {
         return {
             
