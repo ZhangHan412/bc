@@ -52,17 +52,18 @@ export default {
 
 <style scoped>
 .header-container {
-    width: 100%;
-    height: 40px;
-    padding-right: 12px;
-    background-color: #24262C;
-    border: 0 solid;
-    box-shadow: 0px 10px 10px #171a1b;
     display: flex;
     align-items: center;
     justify-content: space-between;
     justify-items: center;
+    width: 100%;
+    height: 40px;
+    padding-right: 12px;
     padding: 0px 20px 0px 0px;
+    border: 0 solid;
+    box-shadow: 0px 10px 10px #171a1b;
+    background-color: #24262C;
+
 }
  .header-container-left{
     margin: 3px 0px 0px 13px;
@@ -72,20 +73,20 @@ export default {
     height: 23px;
 }
  .header-container-right{
-    width: auto;
-    height: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: auto;
+    height: 40px;
 }
 .header-container .header-container-right p{
-    width: 50px;
-    height: 25px;
-    line-height: 20px;
-    color: #8B98A5;
-    font-size: 10px;
     display: flex;
     align-items: center;
+    width: 50px;
+    height: 25px;
+    font-size: 10px;
+    line-height: 20px;
+    color: #8B98A5;
 }
 .header-container .header-container-right .sing-up {
     margin-right: 7px;
@@ -93,7 +94,7 @@ export default {
 .header-container .header-container-right .sing-up .sing-up-btn{
     width: 50px;
     height: 25px;
-    line-height: 25px;
     font-size: 10px;
+    line-height: 25px;
 }
 </style>

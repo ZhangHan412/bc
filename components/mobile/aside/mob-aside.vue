@@ -27,12 +27,12 @@ export default {
 
 <style scoped>
 .aside-container {
-    width: 260px;
-    height: 100%;
-    background-color: #1C1E22;
-    box-shadow: 5px 0 5px#1C1F22;
     position: absolute;
     top: 0px;
+    width: 260px;
+    height: 100%;
+    box-shadow: 5px 0 5px#1C1F22;
+    background-color: #1C1E22;
     transform: none;
 }
 
