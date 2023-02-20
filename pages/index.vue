@@ -1,11 +1,13 @@
 <template>
   <div class="main">
-    123
+    <bc-header />
 </div>
 </template>
 
 <script>
+import bcHeader from '~/components/pc/header/bc-header.vue'
 export default {
+  components: { bcHeader },
   async asyncDate(ctx) {
     try {
       throw new Error()

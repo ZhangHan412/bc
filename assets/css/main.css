@@ -2,6 +2,24 @@
     margin: 0px;
     padding: 0px;
 }
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #24262b;
+    /* height: 100%; */
+}
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none
+}
 
 ::-webkit-scrollbar {
     width: 0 !important;
@@ -10,21 +28,4 @@
 ::-webkit-scrollbar {
     width: 0 !important;
     height: 0;
-}
-
-/* html {
-    height: 100%;
-} */
-
-body {
-    background-color: #24262b;
-    height: 100%;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul li {
-    list-style: none
 }
